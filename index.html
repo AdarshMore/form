@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Simple jQuery Contact Form With Validation</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="contact_form.css" />
+    <script src="contact_form.js"></script>
+</head>
+
+<body>
+    <form method="post" class="myform" action="process-form.php">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea rows="4" cols="20" name="message" placeholder="Your Message"></textarea><br>
+        <input type="submit" name="send" value="Send"> <span class="output_message"></span>
+    </form>
+    
+</body>
+
+</html>
